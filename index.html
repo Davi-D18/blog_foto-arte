@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FotoArte - Blog de Fotografia</title>
+    <link rel="stylesheet" href="./src/styles/index.css" />
+    <link rel="stylesheet" href="./src/styles/mediaQuerie.css" />
+  </head>
+  <body>
+    <!-- Cabeçalho -->
+    <header>
+      <div class="header-content">
+        <h1>FotoArte</h1>
+        <p class="slogan">Capturando Momentos, Criando Histórias</p>
+        <nav>
+          <ul>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#destaques">Destaques</a></li>
+            <li><a href="#galeria">Galeria</a></li>
+            <li><a href="#artigos">Artigos</a></li>
+            <li><a href="#depoimentos">Depoimentos</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Seção Sobre -->
+    <section id="sobre">
+      <h2>Sobre o Blog</h2>
+      <p>
+        O FotoArte é um espaço dedicado aos amantes da fotografia, onde
+        compartilhamos dicas, inspirações e técnicas para capturar os melhores
+        momentos. Aqui você encontrará galerias com fotos incríveis, artigos
+        especializados e histórias de outros fotógrafos que compartilham a mesma
+        paixão.
+      </p>
+    </section>
+
+    <!-- Destaques de Fotografia -->
+    <section id="destaques">
+      <h2>Fotos em Destaque</h2>
+      <div class="destaques-container">
+        <figure>
+          <img
+            src="https://i.pinimg.com/564x/b5/48/0e/b5480ef28436a7be76c702434f59a475.jpg"
+            alt="Foto de uma paisagem ao pôr do sol"
+          />
+          <figcaption>
+            Pôr do sol dourado - capturando a natureza em seu auge.
+          </figcaption>
+        </figure>
+        <figure>
+          <img
+            src="https://i.pinimg.com/564x/b5/48/0e/b5480ef28436a7be76c702434f59a475.jpg"
+            alt="Foto de uma montanha com neve"
+          />
+          <figcaption>
+            Montanhas geladas - a beleza serena das alturas.
+          </figcaption>
+        </figure>
+        <figure>
+          <img
+            src="https://i.pinimg.com/564x/b5/48/0e/b5480ef28436a7be76c702434f59a475.jpg"
+            alt="Foto de um lago espelhado"
+          />
+          <figcaption>
+            Reflexo perfeito - harmonia entre céu e terra.
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- Galeria de Fotos -->
+    <section id="galeria">
+      <h2>Galeria de Fotos</h2>
+      <p>
+        Explore nossa galeria e inspire-se com fotos de diversos temas e
+        estilos.
+      </p>
+      <div class="galeria-container" id="galeriaFotos">
+        <!-- Fotos renderizadas com JavaScript -->
+      </div>
+    </section>
+
+    <!-- Artigos sobre Fotografia -->
+    <section id="artigos">
+      <h2>Artigos sobre Fotografia</h2>
+      <div class="artigos-container">
+        <a href="artigo1.html" class="artigo-card">
+          <h3>Como tirar fotos com luz natural</h3>
+          <p>
+            Descubra como usar a luz natural a seu favor para criar fotos
+            impressionantes.
+          </p>
+        </a>
+        <a href="artigo2.html" class="artigo-card">
+          <h3>Dicas para fotografar paisagens</h3>
+          <p>
+            Aprenda as melhores técnicas para capturar a essência de paisagens
+            incríveis.
+          </p>
+        </a>
+        <a href="artigo3.html" class="artigo-card">
+          <h3>Os melhores horários para fotografar</h3>
+          <p>
+            Entenda a importância do horário na fotografia e como escolher o
+            momento certo.
+          </p>
+        </a>
+        <a href="artigo4.html" class="artigo-card">
+          <h3>Composição para iniciantes</h3>
+          <p>
+            Veja como montar a cena perfeita usando técnicas simples de
+            composição.
+          </p>
+        </a>
+        <a href="artigo5.html" class="artigo-card">
+          <h3>Fotografia de retrato</h3>
+          <p>Dicas para capturar retratos naturais e autênticos de pessoas.</p>
+        </a>
+      </div>
+    </section>
+
+    <!-- Depoimentos -->
+    <section id="depoimentos">
+      <h2>Depoimentos</h2>
+      <div class="depoimentos-container">
+        <blockquote>
+          "FotoArte me inspirou a explorar novas técnicas e experimentar mais
+          com a luz natural. Esse blog é um guia incrível para fotógrafos de
+          todos os níveis!" - <strong>Mariana Silva</strong>
+        </blockquote>
+        <blockquote>
+          "Depois de ler os artigos sobre composição, minhas fotos mudaram
+          completamente. Recomendo o FotoArte para quem deseja melhorar suas
+          habilidades." - <strong>João Pedro</strong>
+        </blockquote>
+        <blockquote>
+          "A galeria de fotos é uma fonte inesgotável de inspiração! Sempre
+          encontro ideias novas e criativas aqui." -
+          <strong>Lucas Ferreira</strong>
+        </blockquote>
+      </div>
+    </section>
+
+    <!-- Modal de imagem -->
+    <div class="modal" id="myModal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <img
+          src=""
+          alt=""
+          class="modal-image"
+        />
+        <div class="modal-caption"></div>
+        <div class="modal-author"></div>
+        <p class="modal-info"></p>
+      </div>
+    </div>
+
+    <!-- Rodapé -->
+    <footer>
+      <p>&copy; 2024 FotoArte - Todos os direitos reservados</p>
+      <div>
+        <a href="#">Facebook</a> | <a href="#">Instagram</a> |
+        <a href="#">Twitter</a>
+      </div>
+    </footer>
+
+    <script type="module" src="./src/js/index.js"></script>
+  </body>
+</html>

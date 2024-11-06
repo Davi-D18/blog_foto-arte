@@ -1,0 +1,35 @@
+@media (max-width: 768px) {
+  .modal-content {
+    width: 90%;
+    padding: 15px;
+  }
+  
+  .modal-image {
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .modal-caption, .modal-author {
+    font-size: 16px;
+  }
+
+  .artigo-card:hover {
+    transform: scale(1);
+    box-shadow: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .modal-content {
+    width: 95%;
+  }
+
+  .modal-caption, .modal-author, .modal-info {
+    font-size: 14px;
+  }
+
+  .modal-image {
+    width: 80%;
+    max-width: 250px;
+  }
+}
