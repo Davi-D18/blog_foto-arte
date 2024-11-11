@@ -1,0 +1,122 @@
+body {
+  font-family: var(--font-inter);
+  background-color: #f5f5f5;
+  color: var(--cor-texto);
+  margin: 0;
+  padding: 20px;
+}
+
+nav {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.back-btn {
+  font-size: 1rem;
+  color: var(--cor-primaria);
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.back-btn:hover {
+  color: var(--cor-acento);
+}
+
+.album-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 20px;
+}
+
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    transform: rotate(10deg);
+    transform: translateX(-100%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
+
+.album-card {
+  background-color: var(--cor-branca);
+  border-radius: 15px;
+  max-width: 360px;
+  padding: 20px;
+  box-shadow: 0 4px 12px var(--cor-sombra);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+  animation: fadeInLeft 0.8s forwards;
+}
+
+.album-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px var(--cor-sombra);
+}
+
+.album-title {
+  display: flex;
+  align-items: center;
+  font-size: 1.8rem;
+  color: var(--cor-primaria);
+  margin-bottom: 10px;
+}
+
+.album-title::before {
+  content: '📸';
+  margin-right: 10px;
+}
+
+.album-author {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  color: var(--cor-secundaria);
+  margin-bottom: 15px;
+}
+
+.album-author::before {
+  content: '🖋️';
+  margin-right: 8px;
+}
+
+.album-preview {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 15px;
+  overflow-x: auto;
+  padding-bottom: 10px;
+}
+
+.album-preview img {
+  flex: 0 0 auto; /* Garante que as imagens mantenham seu tamanho */
+  width: 150px; 
+  border-radius: 8px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.album-description {
+  font-size: 0.95rem;
+  color: var(--cor-texto);
+  margin-bottom: 20px;
+}
+
+.view-album-btn {
+  display: flex;
+  justify-content: center;
+  max-width: 210px;
+  margin: 0 auto;
+  background-color: var(--cor-destaque);
+  color: var(--cor-branca);
+  padding: 10px 25px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}

@@ -1,28 +1,5 @@
-/* Definindo Variáveis de Cor */
-:root {
-  --cor-primaria: #083d77; /* Azul escuro */
-  --cor-secundaria: #51a3a3; /* Azul claro */
-  --cor-fundo: #ddd1c7; /* Bege suave */
-  --cor-destaque: #7d83ff; /* Azul violeta */
-  --cor-acento: #7e1946; /* Vinho profundo */
-  --cor-texto: #333;
-  --cor-branca: #fff;
-  --cor-cinza-claro: #f0f0f0;
-  --cor-sombra: rgba(0, 0, 0, 0.1);
-
-  --font-inter: "Inter", sans-serif;
-  --font-itim: "Itim", cursive;
-}
-
 html {
   scroll-behavior: smooth;
-}
-
-/* Reset Básico */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
 }
 
 body {
@@ -170,14 +147,15 @@ header nav ul li a:hover::before {
 }
 
 .galeria-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 15px;
   padding-top: 20px;
 }
 
 .galeria-container img {
-  width: 100%;
+  max-width: 280px;
   border-radius: 8px;
   transition: transform 0.3s;
   cursor: pointer;
@@ -202,28 +180,61 @@ header nav ul li a:hover::before {
 
 .artigos-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  max-width: 85vw;
+  margin: 0 auto;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
   padding: 20px;
+  justify-items: center;
 }
 
 .artigo-card {
   background-color: var(--cor-branca);
   padding: 15px;
+  width: 100%;
+  max-width: 350px;
   border-radius: 8px;
   box-shadow: 0 4px 8px var(--cor-sombra);
-  text-decoration: none;
   color: var(--cor-texto);
   transition: transform 0.2s, box-shadow 0.2s;
+  animation: aparecerArtigo 0.5s ease-out;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.artigo-card img {
+  width: 100%;
+  height: auto;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+@keyframes aparecerArtigo {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+
+  50% {
+    transform: translateX(-5%);
+    opacity: 0.5;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
 
 .artigo-card:hover {
-  transform: scale(1.05);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 
 .artigo-card h3 {
-  font-size: 18px;
+  font-size: 19px;
   margin-bottom: 8px;
   color: var(--cor-acento);
 }
@@ -231,6 +242,31 @@ header nav ul li a:hover::before {
 .artigo-card p {
   font-size: 14px;
   color: var(--cor-texto);
+}
+
+.button-artigo {
+  background-color: var(--cor-primaria);
+  color: white;
+  font-size: 16px;
+  padding: 7px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s, transform 0.2s;
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 15px; 
+  cursor: pointer;
+}
+
+.button-artigo:hover {
+  background-color: var(--cor-acento); 
+  transform: scale(1.05); 
+}
+
+.button-artigo:active {
+  outline: 2px solid var(--cor-primaria); 
 }
 
 /* Seção Depoimentos */
@@ -290,12 +326,13 @@ footer a:hover {
   display: none; /* Escondido por padrão */
   position: fixed;
   z-index: 1;
-  padding-top: 60px;
   left: 0;
   top: 0;
   width: 100%;
   height: 100%;
   overflow: auto;
+  justify-content: center;
+  align-items: center;
   background-color: rgba(0, 0, 0, 0.8); /* Fundo semi-transparente */
 }
 
@@ -305,7 +342,7 @@ footer a:hover {
   padding: 20px;
   border-radius: 8px;
   width: 80%;
-  max-width: 600px;
+  max-width: 490px;
   transform: translateY(100%);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   position: relative;
@@ -313,11 +350,12 @@ footer a:hover {
   flex-direction: column;
   align-items: center;
   transition: transform 0.5s ease;
+  font-family: var(--font-inter);
 }
 
 .modal-image {
   width: 90%;
-  max-width: 400px;
+  max-width: 415px;
   height: auto;
   border-radius: 8px;
   margin-bottom: 15px;
@@ -326,7 +364,6 @@ footer a:hover {
 .modal-caption {
   text-align: center;
   font-size: 18px;
-  color: var(--cor-primaria);
   margin: 10px 0;
 }
 
@@ -338,7 +375,6 @@ footer a:hover {
 
 .modal-info {
   font-size: 14px;
-  color: var(--cor-texto);
   margin-top: 10px;
   text-align: center;
   max-width: 90%;
@@ -346,10 +382,10 @@ footer a:hover {
 
 .close {
   position: absolute;
-  top: 10px;
+  top: -2px;
   right: 10px;
   color: #333;
-  font-size: 30px;
+  font-size: 31px;
   font-weight: bold;
   cursor: pointer;
   transition: color 0.3s;

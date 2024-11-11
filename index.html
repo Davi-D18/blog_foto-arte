@@ -14,6 +14,7 @@
 
     <link rel="stylesheet" href="./src/styles/index.css" />
     <link rel="stylesheet" href="./src/styles/mediaQuerie.css" />
+    <link rel="stylesheet" href="./src/styles/global.css">
 
   </head>
   <body>
@@ -24,7 +25,7 @@
         <p class="slogan">Capturando Momentos, Criando Histórias</p>
         <nav>
           <ul>
-            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="./src/pages/Albuns/album.html">Álbuns</a></li>
             <li><a href="#destaques">Destaques</a></li>
             <li><a href="#galeria">Galeria</a></li>
             <li><a href="#artigos">Artigos</a></li>
@@ -41,14 +42,13 @@
         <p>
           O FotoArte é um espaço dedicado aos amantes da fotografia, onde
           compartilhamos dicas, inspirações e técnicas para capturar os melhores
-          momentos. Aqui você encontrará galerias com fotos incríveis, artigos
-          especializados e histórias de outros fotógrafos que compartilham a mesma
+          momentos. Aqui você encontrará galerias com fotos incríveis, artigos e histórias de outros fotógrafos que compartilham a mesma
           paixão.
         </p>
       </section>
       <!-- Destaques de Fotografia -->
       <section id="destaques">
-        <h2>Fotos em Destaque</h2>
+        <h2>Destaques da Semana</h2>
         <div class="destaques-container">
           <figure>
             <img
@@ -82,50 +82,22 @@
       <!-- Galeria de Fotos -->
       <section id="galeria">
         <h2>Galeria de Fotos</h2>
+
         <p>
           Explore nossa galeria e inspire-se com fotos de diversos temas e
           estilos.
         </p>
+
         <div class="galeria-container" id="galeriaFotos">
           <!-- Fotos renderizadas com JavaScript -->
         </div>
+        
       </section>
       <!-- Artigos sobre Fotografia -->
-      <section id="artigos">
+      <section class="artigos-trigger" id="artigos">
         <h2>Artigos sobre Fotografia</h2>
         <div class="artigos-container">
-          <a href="artigo1.html" class="artigo-card">
-            <h3>Como tirar fotos com luz natural</h3>
-            <p>
-              Descubra como usar a luz natural a seu favor para criar fotos
-              impressionantes.
-            </p>
-          </a>
-          <a href="artigo2.html" class="artigo-card">
-            <h3>Dicas para fotografar paisagens</h3>
-            <p>
-              Aprenda as melhores técnicas para capturar a essência de paisagens
-              incríveis.
-            </p>
-          </a>
-          <a href="artigo3.html" class="artigo-card">
-            <h3>Os melhores horários para fotografar</h3>
-            <p>
-              Entenda a importância do horário na fotografia e como escolher o
-              momento certo.
-            </p>
-          </a>
-          <a href="artigo4.html" class="artigo-card">
-            <h3>Composição para iniciantes</h3>
-            <p>
-              Veja como montar a cena perfeita usando técnicas simples de
-              composição.
-            </p>
-          </a>
-          <a href="artigo5.html" class="artigo-card">
-            <h3>Fotografia de retrato</h3>
-            <p>Dicas para capturar retratos naturais e autênticos de pessoas.</p>
-          </a>
+          
         </div>
       </section>
       <!-- Depoimentos -->
@@ -137,16 +109,19 @@
             com a luz natural. Esse blog é um guia incrível para fotógrafos de
             todos os níveis!" - <strong>Mariana Silva</strong>
           </blockquote>
+
           <blockquote>
             "Depois de ler os artigos sobre composição, minhas fotos mudaram
             completamente. Recomendo o FotoArte para quem deseja melhorar suas
             habilidades." - <strong>João Pedro</strong>
           </blockquote>
+
           <blockquote>
             "A galeria de fotos é uma fonte inesgotável de inspiração! Sempre
             encontro ideias novas e criativas aqui." -
             <strong>Lucas Ferreira</strong>
           </blockquote>
+
         </div>
       </section>
     </main>
@@ -157,20 +132,19 @@
         <span class="close">&times;</span>
         <img src="" alt="" class="modal-image" />
         <div class="modal-caption"></div>
-        <!-- <div class="modal-author"></div>
-        <p class="modal-info"></p> -->
       </div>
     </div>
 
     <!-- Rodapé -->
     <footer>
       <p>&copy; 2024 FotoArte - Todos os direitos reservados</p>
-      <div>
+      <div class="social-icons-container">
         <a href="#">Facebook</a> | <a href="#">Instagram</a> |
         <a href="#">Twitter</a>
       </div>
     </footer>
 
     <script type="module" src="./src/js/index.js"></script>
+    <script type="module" src="./src/js/renderArtigos.js"></script>
   </body>
 </html>

@@ -1,0 +1,7 @@
+@media (max-width: 768px) {
+  .album-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

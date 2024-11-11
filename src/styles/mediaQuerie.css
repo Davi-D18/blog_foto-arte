@@ -1,30 +1,49 @@
 @media (max-width: 768px) {
+  header nav ul li a {
+    font-size: 14px;
+  }
+
   .modal-content {
     width: 90%;
     padding: 15px;
   }
-  
+
+  .galeria-container img:hover {
+    transform: scale(1);
+  }
+
   .modal-image {
     width: 100%;
     max-width: 300px;
   }
-  
-  .modal-caption, .modal-author {
+
+  .modal-caption,
+  .modal-author {
     font-size: 16px;
+  }
+
+  .artigo-card h3 {
+    font-size: 17px;
   }
 
   .artigo-card:hover {
     transform: scale(1);
     box-shadow: none;
   }
+
+  .artigos-container {
+    max-width: 100vw;
+  }
 }
 
 @media (max-width: 480px) {
   .modal-content {
-    width: 95%;
+    width: 85%;
   }
 
-  .modal-caption, .modal-author, .modal-info {
+  .modal-caption,
+  .modal-author,
+  .modal-info {
     font-size: 14px;
   }
 

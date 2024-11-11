@@ -3,7 +3,7 @@
 Este é o projeto final desenvolvido para o curso da Let's Code. A proposta era criar um blog com um tema livre, aplicando conceitos de desenvolvimento web e programação.
 
 ## 📖 Sobre o Projeto
-O tema escolhido para o blog foi Fotografia. O blog é uma plataforma informativa, com seções para artigos, galeria de imagens, depoimentos, e mais. Cada seção foi desenvolvida utilizando HTML, CSS e JavaScript.
+O tema escolhido para o blog foi Fotografia. O blog é uma plataforma informativa, com seções para artigos, galeria de imagens, depoimentos, e mais.
 
 ### Funcionalidades
 - **Visualização de Artigos**: Os usuários podem ler artigos com uma exibição responsiva e organizada.

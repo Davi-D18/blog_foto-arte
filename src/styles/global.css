@@ -1,0 +1,20 @@
+:root {
+  --cor-primaria: #083d77; /* Azul escuro */
+  --cor-secundaria: #51a3a3; /* Azul claro */
+  --cor-fundo: #ddd1c7; /* Bege suave */
+  --cor-destaque: #7d83ff; /* Azul violeta */
+  --cor-acento: #7e1946; /* Vinho profundo */
+  --cor-texto: #333;
+  --cor-branca: #fff;
+  --cor-cinza-claro: #f0f0f0;
+  --cor-sombra: rgba(0, 0, 0, 0.1);
+
+  --font-inter: "Inter", sans-serif;
+  --font-itim: "Itim", cursive;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

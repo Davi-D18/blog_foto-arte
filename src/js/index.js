@@ -29,10 +29,12 @@ document.addEventListener("DOMContentLoaded", () => {
     const modalImg = document.querySelector(".modal-image");
     const modalCaption = document.querySelector(".modal-caption");
 
-    modal.style.display = "block";
+    modal.style.display = "flex";
     modalImg.src = foto.src;
     modalImg.alt = foto.alt;
-    modalCaption.innerHTML = `<p>${foto.descricao}</p><p>${foto.autor}</p>`;
+    modalCaption.innerHTML = `
+    <p class="modal-info">${foto.descricao}</p>
+    <p class="modal-author">${foto.autor}</p>`;
   }
 
   // Fecha o modal ao clicar no "X" ou fora da imagem
