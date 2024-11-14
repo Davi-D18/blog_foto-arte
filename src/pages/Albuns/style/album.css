@@ -96,6 +96,7 @@ nav {
 .album-preview img {
   flex: 0 0 auto; /* Garante que as imagens mantenham seu tamanho */
   width: 150px; 
+  max-height: 200px;
   border-radius: 8px;
   object-fit: cover;
   transition: transform 0.3s ease;

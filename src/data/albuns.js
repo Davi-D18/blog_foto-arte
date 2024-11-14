@@ -1,6 +1,6 @@
 export const albuns = [
   {
-    titulo: "Álbum Praia",
+    titulo: "Praia",
     autor: "Luiz Davi",
     descricao: "Uma coleção de fotos tiradas nas praias mais bonitas.",
     imagens: [
@@ -10,13 +10,14 @@ export const albuns = [
     link: "https://photos.app.goo.gl/k91iiHYvGLvnz6zc8",
   },
   {
-    titulo: "Álbum Floresta",
-    autor: "Maria Silva",
-    descricao: "Imagens incríveis de florestas ao redor do mundo.",
+    titulo: "Salvador",
+    autor: "Irla Andrade",
+    descricao:
+      "Fotos de uma visita técnica para Salvador com a turma do curso de Turismo",
     imagens: [
-      "https://www.ocasaldafoto.com/wp-content/uploads/2018/09/Foto-de-Paisagem-Lago-da-Pampulha-Belo-Horizonte-Charles-Torres.jpg?x78641",
-      "https://www.ocasaldafoto.com/wp-content/uploads/2018/09/Foto-de-Paisagem-Lago-da-Pampulha-Belo-Horizonte-Charles-Torres.jpg?x78641",
+      "https://lh3.googleusercontent.com/pw/AP1GczNn1N7TL2xvrhd6YX5LeNMOHhMY_bJClJ3yvR_BeNvUdgH0XKkCtTH3cMOxseTuDnjHly0nBZYk9Z28f8n73lxv2PgOzUcgLGojtoIZdv_5Ftk5HRSEU6rD40rbvhWaw9QfSoagmP-E7Gl8WPvKnxJl=w512-h911-s-no-gm",
+      "https://lh3.googleusercontent.com/pw/AP1GczNieHk17Qxg-6ZDqSsGhyhM-hRtJ_uxRxiFFwNADOgdcZP4Mk-Vgfo1GUNTwVxAbFReCj8dj1K3BQuhLp9Onx_60rHzoVodCAbGQG0iI1QF4q1GHyiD_rkaUcCzF8Z6c8TxIbNl5aKOLw52vDF_tEht=w683-h911-s-no-gm",
     ],
-    link: "link-para-google-fotos",
+    link: "https://photos.app.goo.gl/d8scXYPmwmKTVvT8A",
   },
 ];
