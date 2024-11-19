@@ -8,6 +8,10 @@
     text-align: justify;
   }
 
+  .destaques-container img:hover {
+    transform: scale(1);
+  }
+
   .modal-content {
     width: 90%;
     padding: 15px;
@@ -38,6 +42,10 @@
 
   .artigos-container {
     max-width: 100vw;
+  }
+
+  footer a img {
+    width: 33px;
   }
 }
 

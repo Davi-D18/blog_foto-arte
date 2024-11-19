@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const img = document.createElement("img");
     img.src = foto.src;
     img.alt = foto.alt;
+    img.loading = "lazy";
     img.classList.add("gallery-img");
 
     // Adiciona evento de clique para abrir o modal com a imagem e informações
