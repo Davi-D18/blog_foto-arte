@@ -27,9 +27,4 @@ export const artigos = [
     img: "https://i.ytimg.com/vi/E8mCYmi2Vvs/hqdefault.jpg?sqp=-oaymwExCNACELwBSFryq4qpAyMIARUAAIhCGAHwAQH4Af4JgALQBYoCDAgAEAEYSiBWKGUwDw==&rs=AOn4CLCxin1C3SlIQBwQc6bllnPkOSe_Jg",
     link: "https://youtu.be/E8mCYmi2Vvs?si=ePNQ1M5PK15GgLAz",
   },
-  {
-    titulo: "Fotografia de retrato",
-    descricao: "Dicas para capturar retratos naturais e autênticos de pessoas.",
-    img: "https://img.blogs.es/anexom/wp-content/uploads/2018/03/fotografia-digital-1.jpg",
-  },
 ];
