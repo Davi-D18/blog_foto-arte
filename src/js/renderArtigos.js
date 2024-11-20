@@ -26,6 +26,8 @@ function renderizarProximoArtigo() {
     const button = document.createElement("a");
     button.classList.add("button-artigo");
     button.textContent = "Saiba mais";
+    button.href = artigo.link;
+    button.target = "_blank";
 
     // Adiciona os elementos criados ao card
     artigoCard.appendChild(imagem);
