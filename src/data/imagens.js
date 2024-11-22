@@ -17,7 +17,7 @@ export const fotos = [
     alt: "Formação rochosa com um arco central, cercada por pequenas plantas e com o céu azul claro visível ao fundo.",
     descricao:
       "Um portal natural esculpido pela natureza, revelando o céu azul límpido com nuvens leves ao fundo",
-    autor: "Fotógrafo: João Pereira",
+    autor: "Autor: Davi",
   },
   {
     src: "https://lh3.googleusercontent.com/pw/AP1GczOpY3vESLxA0vVWw2mqH7YlneNBKb1tVXc8iHV9JetWEFJ34DpiPVjK_83EZvExXsQSQk7RGGfgY3QYO9AtC1NuRl9ynmVD6D30wTaGQT77a4mEOG6TJWT9OBsCNYnRpAwG80G5o5sQAKkapcY3me5NxQ=w590-h787-s-no-gm?authuser=0",
