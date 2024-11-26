@@ -50,6 +50,10 @@
 }
 
 @media (max-width: 480px) {
+  header nav ul li a {
+    font-size: 13px;
+  }
+
   .modal-content {
     width: 85%;
   }
