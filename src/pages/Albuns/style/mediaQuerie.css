@@ -2,10 +2,16 @@
   body {
     padding-inline: 0px;
   }
-  
+
   .album-container {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  .view-album-btn:hover {
+    background-color: var(--cor-destaque);
+    transform: translateY(0px) scale(1);
+    box-shadow: none;
   }
 }
