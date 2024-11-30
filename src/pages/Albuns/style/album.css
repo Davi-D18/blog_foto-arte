@@ -55,7 +55,6 @@ nav {
 }
 
 .album-card:hover {
-  transform: translateY(-5px);
   box-shadow: 0 6px 16px var(--cor-sombra);
 }
 
@@ -76,7 +75,8 @@ nav {
   display: flex;
   align-items: center;
   font-size: 1rem;
-  color: var(--cor-secundaria);
+  color: var(--cor-destaque);
+  font-weight: 600;
   margin-bottom: 15px;
 }
 
@@ -121,4 +121,10 @@ nav {
   text-decoration: none;
   font-weight: bold;
   transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.view-album-btn:hover {
+  background-color: var(--cor-acento);
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0px 4px 15px var(--cor-sombra);
 }

@@ -41,4 +41,26 @@ export const albuns = [
     ],
     link: "https://photos.app.goo.gl/JqgFFvVYnxEKAoGF8",
   },
+  {
+    titulo: "Castelo do Piauí",
+    autor: "Ana Camile",
+    descricao:
+      "Registros da visita técnica dos alunos de Turismo ao Parque Pedra do Castelo, em Castelo do Piauí.",
+    imagens: [
+      "https://lh3.googleusercontent.com/pw/AP1GczOjMaBTjW_H98nzQNqYzCgHG3rQD-dWUX1WcL-1i_aZXHBOOa9aUQLxLsCHtF3bmc87vpKMdXPCC6gcNVQw4DbL0LyoNcKUBv2ptfq9vLofzmxnl8HV_sjSx0VsB6QT1gI6lBZ5izUrYsdynRc84OzgWQ=w590-h787-s-no-gm?authuser=0",
+      "https://lh3.googleusercontent.com/pw/AP1GczMixvneuqTLDfwAAt4o90CsCtDLCBB705nbRmxffg1tegvLBD0cSD-cpmUTGbh9D_3UIIMiEgL0Ks8mVkGALA_Fb8hvI0FPGBAhV67H8OAi_ePMzO-wPgfQdfeqMkM1qYW2ayHbjZJt4RBTud8lKoEqFQ=w590-h787-s-no-gm?authuser=0",
+    ],
+    link: "https://photos.app.goo.gl/xi2GsnbwhXEQfkV9A",
+  },
+  {
+    titulo: "Teresina",
+    autor: "Ana Camile",
+    descricao:
+      "Registros de uma Visita Técnica realizada com os alunos do curso de Turismo a Teresina, capita do estado do Piauí.",
+    imagens: [
+      "https://lh3.googleusercontent.com/pw/AP1GczOdif_8KPzr6ctFltL0rJIDIX0OFECD3kx4Npv0pTUR9a4kDGGRL5ZACTNDVb90O0PhSz5zeYNYcf7UVp4XjkGZlFgIW8WDs_G18pSyyWRPPYbB1BLH-L2g-0kLuWJZ5Gn5Xso5NA5RQtsKH_u8Z8UqdA=w590-h787-s-no-gm?authuser=0",
+      "https://lh3.googleusercontent.com/pw/AP1GczOCBp6lYUWhEH65c4HiSOhd_X--40EdlicF46dM9LoanfYDsDgIwbHCAHPGKOwaLG3-EpolMirfBrMCtQcIE2OcftKJuYXZaTkKONOktSmTm6VbwX9LdrYukiwlISAWYmXAPl7tEKDatV0YKowmbRcjmg=w590-h787-s-no-gm?authuser=0",
+    ],
+    link: "https://photos.app.goo.gl/A3M3hz2puASpPCrV9",
+  },
 ];

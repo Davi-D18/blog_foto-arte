@@ -1,4 +1,8 @@
 @media (max-width: 768px) {
+  body {
+    padding-inline: 0px;
+  }
+  
   .album-container {
     display: flex;
     flex-direction: column;
