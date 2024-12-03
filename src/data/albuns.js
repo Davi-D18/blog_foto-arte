@@ -56,7 +56,7 @@ export const albuns = [
     titulo: "Teresina",
     autor: "Ana Camile",
     descricao:
-      "Registros de uma Visita Técnica realizada com os alunos do curso de Turismo a Teresina, capita do estado do Piauí.",
+      "Registros de uma Visita Técnica realizada com os alunos do curso de Turismo a Teresina, capital do estado do Piauí.",
     imagens: [
       "https://lh3.googleusercontent.com/pw/AP1GczOdif_8KPzr6ctFltL0rJIDIX0OFECD3kx4Npv0pTUR9a4kDGGRL5ZACTNDVb90O0PhSz5zeYNYcf7UVp4XjkGZlFgIW8WDs_G18pSyyWRPPYbB1BLH-L2g-0kLuWJZ5Gn5Xso5NA5RQtsKH_u8Z8UqdA=w590-h787-s-no-gm?authuser=0",
       "https://lh3.googleusercontent.com/pw/AP1GczOCBp6lYUWhEH65c4HiSOhd_X--40EdlicF46dM9LoanfYDsDgIwbHCAHPGKOwaLG3-EpolMirfBrMCtQcIE2OcftKJuYXZaTkKONOktSmTm6VbwX9LdrYukiwlISAWYmXAPl7tEKDatV0YKowmbRcjmg=w590-h787-s-no-gm?authuser=0",
